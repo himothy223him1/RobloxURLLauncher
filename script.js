@@ -50,7 +50,7 @@ if (!urlParams.get('page')) { // Don't run if Roblox analytics headers are prese
 			try {
 				Roblox.GameLauncher[action](...input) // Execute
 				clearInterval(interval)
-				if (!urlParams.get('dontClose')) document.body.classList.add('RBLX_URL_LAUNCHER_OPENED')
+				if (!urlParams.get('dontClose')) document.body.class/List.add('RBLX_URL_LAUNCHER_OPENED')
 			} catch(e) {
 				console.log("Couldn't run the game - ", e)
 			}
